@@ -1,0 +1,1 @@
+## Welcome to Wayne Bear's personal blog site repo!
