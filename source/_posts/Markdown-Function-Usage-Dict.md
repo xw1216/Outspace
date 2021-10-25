@@ -24,7 +24,7 @@ katex: true
 
 
 
-### 标题
+### 1.1 标题
 
 共有 `1~6` 不同级别的标题。
 
@@ -38,7 +38,7 @@ katex: true
 
 
 
-### 字体效果
+### 1.2 字体效果
 
 可以显示**加粗**，*斜体*，~~删除线效果~~ 。
 
@@ -54,7 +54,7 @@ katex: true
 
 
 
-### 分割线
+### 1.3 分割线
 
 使用 `3` 个以上的 `*` ,  `-` ，`_` 建立分割线。
 
@@ -70,7 +70,7 @@ ___
 
 
 
-### 引用块
+### 1.4 引用块
 
 使用 `>` 标识一个引用块。
 
@@ -90,7 +90,7 @@ ___
 
 
 
-### 列表
+### 1.5 列表
 
 > 所有的列表项都会嵌套并改变多级列表前的指示符号。
 >
@@ -98,7 +98,7 @@ ___
 
 
 
-#### 无序列表
+#### 1.5.1 无序列表
 
 ```markdown
 - 列表项
@@ -112,7 +112,7 @@ ___
 
 
 
-#### 有序列表
+#### 1.5.2 有序列表
 
 ```markdown
 1. 列表项
@@ -128,7 +128,7 @@ ___
 
 
 
-### 表格
+### 1.6 表格
 
 ```markdown
 | 表头 | 表头 | 表头 |
@@ -152,9 +152,9 @@ ___
 
 
 
-### 代码
+### 1.7 代码
 
-#### 单行代码
+#### 1.7.1 单行代码
 
 ```markdown
 `#include <iostream>`
@@ -164,7 +164,7 @@ ___
 
 
 
-#### 多行代码
+#### 1.7.2 多行代码
 
 ````markdown
 ```c++
@@ -184,7 +184,7 @@ using namespace std;
 
 
 
-### 段落与换行
+### 1.8 段落与换行
 
 `Markdown` 段落前后要有一个以上的空行。
 
@@ -199,9 +199,9 @@ using namespace std;
 
 
 
-### 超链接
+### 2.1 超链接
 
-#### 基本方式
+#### 2.1.1 基本方式
 
 ```markdown
 这是一个指向 [必应](https://www.bing.com) 的链接。
@@ -211,7 +211,7 @@ using namespace std;
 
 
 
-#### 参考方式
+#### 2.1.2 参考方式
 
 ```markdown
 这是一个先使用，后定义的 [必应][Bing] 脚注链接。
@@ -224,7 +224,7 @@ using namespace std;
 
 
 
-#### 简洁方式
+#### 2.1.3 简洁方式
 
 ```markdown
 <https://bing.com>
@@ -241,9 +241,9 @@ using namespace std;
 
 
 
-### 图片
+### 2.2 图片
 
-#### 基本方式
+#### 2.2.1 基本方式
 
 ```markdown
 ![替换内容](https://raw.githubusercontent.com/xw1216/ImageHosting/main/img/20201110_101713.jpg)
@@ -262,9 +262,9 @@ using namespace std;
 
 
 
-### 公式
+### 2.3 公式
 
-#### 行内公式
+#### 2.3.1 行内公式
 
 ```markdown
 $ \sum_{i=1}^{n}{\log{\alpha}} $
@@ -274,7 +274,7 @@ $ \sum_{i=1}^{n}{\log{\alpha}} $
 
 
 
-#### 块级公式
+#### 2.3.2 块级公式
 
 ```markdown
 R_{\theta} = \begin{bmatrix} 
@@ -308,7 +308,7 @@ $$
 
 
 
-### 脚注
+### 2.4 脚注
 
 ```markdown
 Here's a sentence with a footnote. [^1]
@@ -325,7 +325,7 @@ Here's a sentence with a footnote. [^1]
 
 
 
-### 任务列表
+### 2.5 任务列表
 
 ```markdown
 - [x] Write the press release
@@ -343,7 +343,7 @@ Here's a sentence with a footnote. [^1]
 
 
 
-### 使用 `emoji` 表情
+### 2.6 使用 `emoji` 表情
 
 ```mark
 :tent:  很快回来。
@@ -375,9 +375,9 @@ Here's a sentence with a footnote. [^1]
 
 
 
-### `Front-matter`
+### 3.1 `Front-matter`
 
-#### `Post Front-matter`
+#### 3.1.1 `Post Front-matter`
 
 在 `.markdown` 文件的头部声明对应的键值，博客系统将按照响应的方法进行操作。
 
@@ -435,7 +435,7 @@ aside:
 
 
 
-#### `Post Front-matter`
+#### 3.1.2 `Post Front-matter`
 
 ```markdown
 ---
@@ -475,7 +475,7 @@ highlight_shrink:
 
 
 
-### 标签外挂
+### 3.2 标签外挂
 
 ```markdown
 {% note [class] [no-icon] [style] %}
@@ -549,7 +549,7 @@ danger 提示标签块
 
 
 
-### `Gallary` 相册
+### 3.3 `Gallary` 相册
 
 ```markdown
 {% gallery %}
@@ -567,7 +567,7 @@ danger 提示标签块
 
 
 
-### 文字隐藏
+### 3.4 文字隐藏
 
 ```markdown
 {% hideInline content,display,bg,color %}
@@ -596,7 +596,7 @@ git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/Bu
 
 
 
-### 页内标签
+### 3.5 页内标签
 
 ```markdown
 {% tabs Unique name, [index] %}
@@ -640,7 +640,7 @@ Unique name   : Unique name of tabs block tag without comma.
 
 
 
-### 页内按钮
+### 3.6 页内按钮
 
 ```markdown
 {% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %}
@@ -674,7 +674,7 @@ Unique name   : Unique name of tabs block tag without comma.
 
 
 
-### 页内文字标签
+### 3.7 页内文字标签
 
 ```markdown
 {% label [text] [color] %}
