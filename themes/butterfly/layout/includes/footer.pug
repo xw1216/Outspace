@@ -21,3 +21,9 @@
         if theme.ICP.icon
           img.icp-icon(src=url_for(theme.ICP.icon))
         span=theme.ICP.text
+  if theme.NSP.enable
+    .icp
+      a(href=theme.NSP.url)
+        if theme.NSP.icon
+          img.icp-icon(src=url_for(theme.NSP.icon))
+        span=theme.NSP.text

@@ -413,6 +413,20 @@ footer:
   custom_text:
   copyright: true # Copyright of theme and framework
 
+# ICP Settings
+ICP:
+  enable: true  # 是否启用ICP
+  url: https://beian.miit.gov.cn  # 点击后的链接地址
+  text: 青ICP备202200067  # 备案号
+  icon:    # 图标
+
+# NSP Settings
+NSP:
+  enable: false   # 是否启用NSP
+  url: https://beian.gov.cn/  # 点击后的链接地址
+  text: 青公网安备xxxxx号    # 公安备案号
+  icon:   # 图标
+
 # Analysis
 # --------------------------------------
 
