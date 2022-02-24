@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://xw1216.github.io
+url: http://www.outspace.tech
 permalink: /:year/:month/:title/
 permalink_defaults:
 pretty_urls:
@@ -107,8 +107,8 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:xw1216/xw1216.github.io.git
-  branch: main
+  repo: git@120.55.85.38:/home/git/hexo/hexo.git
+  branch: master
 
 markdown:
   plugins:
@@ -126,3 +126,9 @@ emoji:
   className: github-emoji
   styles:
   customEmojis:
+
+ICP:
+  enable: true  # 是否启用ICP
+  url: http://www.beian.miit.gov.cn/  # 点击后的链接地址
+  text: 青ICP备202200067  # 备案号
+  icon:    # 图标
