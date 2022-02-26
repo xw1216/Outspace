@@ -6,7 +6,7 @@ tags:
   - 指南
   - 教程
   - Markdown
-cover: https://raw.githubusercontent.com/xw1216/ImageHosting/main/img/20201110_101713.jpg
+cover: https://pic.outspace.tech/images/2022/02/26/20201110_101713.jpg
 katex: true
 ---
 
@@ -246,10 +246,10 @@ using namespace std;
 #### 2.2.1 基本方式
 
 ```markdown
-![替换内容](https://raw.githubusercontent.com/xw1216/ImageHosting/main/img/20201110_101713.jpg)
+![替换内容](https://pic.outspace.tech/images/2022/02/26/20201110_101713.jpg)
 ```
 
-![替换内容](https://raw.githubusercontent.com/xw1216/ImageHosting/main/img/20201110_101713.jpg)
+![替换内容](https://pic.outspace.tech/images/2022/02/26/20201110_101713.jpg)
 
 
 
@@ -558,7 +558,7 @@ danger 提示标签块
 ```
 
 {% gallery %}
-![](https://raw.githubusercontent.com/xw1216/ImageHosting/main/img/background.png)
+![](https://pic.outspace.tech/images/2022/02/26/background.png)
 ![](https://raw.githubusercontent.com/xw1216/ImageHosting/main/img/e6e09d1b09711bb40fa672450aafd3405690bb121080.png)
 
 {% endgallery %}
